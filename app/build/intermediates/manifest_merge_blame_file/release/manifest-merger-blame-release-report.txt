@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bypass.projection"
+4    android:versionCode="9"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\qnile\.gradle\caches\transforms-3\ec58f110124a3428a16ec337c431efeb\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.bypass.projection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\qnile\.gradle\caches\transforms-3\ec58f110124a3428a16ec337c431efeb\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\qnile\.gradle\caches\transforms-3\ec58f110124a3428a16ec337c431efeb\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.bypass.projection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\qnile\.gradle\caches\transforms-3\ec58f110124a3428a16ec337c431efeb\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\qnile\.gradle\caches\transforms-3\ec58f110124a3428a16ec337c431efeb\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:5:5-41:19
+18        android:allowBackup="false"
+18-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:6:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\qnile\.gradle\caches\transforms-3\ec58f110124a3428a16ec337c431efeb\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:9:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:8:9-54
+24        android:supportsRtl="true"
+24-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:10:9-35
+25        android:theme="@style/Theme.App.Minimal" >
+25-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:11:9-49
+26        <activity
+26-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:13:9-20:20
+27            android:name="com.bypass.projection.SetupActivity"
+27-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:14:13-42
+28            android:exported="true" >
+28-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:15:13-36
+29            <intent-filter>
+29-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:16:13-19:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:17:17-69
+30-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:18:17-77
+32-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:18:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:22:9-26:20
+36            android:name="com.bypass.projection.MainActivity"
+36-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:23:13-41
+37            android:exported="false"
+37-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:24:13-37
+38            android:label="@string/app_name" >
+38-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:25:13-45
+39        </activity>
+40
+41        <meta-data
+41-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:28:9-30:36
+42            android:name="xposedmodule"
+42-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:29:13-40
+43            android:value="true" />
+43-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:30:13-33
+44        <meta-data
+44-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:31:9-33:58
+45            android:name="xposeddescription"
+45-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:32:13-45
+46            android:value="@string/xposed_description" />
+46-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:33:13-55
+47        <meta-data
+47-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:34:9-36:34
+48            android:name="xposedminversion"
+48-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:35:13-44
+49            android:value="93" />
+49-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:36:13-31
+50        <meta-data
+50-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:37:9-39:53
+51            android:name="xposedscope"
+51-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:38:13-39
+52            android:resource="@array/xposedscope" />
+52-->D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\AndroidManifest.xml:39:13-50
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.bypass.projection.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\qnile\.gradle\caches\transforms-3\4fb95a2d322c0b24610ffef19a70ef50\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\qnile\.gradle\caches\transforms-3\4fb95a2d322c0b24610ffef19a70ef50\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\qnile\.gradle\caches\transforms-3\4fb95a2d322c0b24610ffef19a70ef50\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+66                android:value="androidx.startup" />
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+67        </provider>
+68
+69        <receiver
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+70            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+71            android:directBootAware="false"
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+72            android:enabled="true"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+73            android:exported="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+74            android:permission="android.permission.DUMP" >
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+76                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+79                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+82                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+85                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+86            </intent-filter>
+87        </receiver>
+88    </application>
+89
+90</manifest>

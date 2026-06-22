@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposedscope">
+        <item>android</item>
+        <item>com.microsoft.appmanager</item>
+        <item>com.microsoft.deviceintegrationservice</item>
+        <item>com.microsoftsdk.crossdeviceservicebroker</item>
+        <item>com.android.systemui</item>
+    </string-array>
+</resources>

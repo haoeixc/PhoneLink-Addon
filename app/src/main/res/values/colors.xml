@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary palette -->
+    <color name="bg_primary">#FF0D1117</color>
+    <color name="bg_card">#FF161B22</color>
+    <color name="bg_card_elevated">#FF1C2333</color>
+    <color name="accent_blue">#FF58A6FF</color>
+    <color name="accent_green">#FF3FB950</color>
+    <color name="accent_orange">#FFD29922</color>
+    <color name="accent_red">#FFF85149</color>
+    <color name="text_primary">#FFF0F6FC</color>
+    <color name="text_secondary">#FF8B949E</color>
+    <color name="text_muted">#FF484F58</color>
+    <color name="divider">#FF21262D</color>
+    <color name="switch_track_on">#FF1F6FEB</color>
+    <color name="switch_track_off">#FF30363D</color>
+    <color name="switch_thumb_on">#FFFFFFFF</color>
+    <color name="switch_thumb_off">#FF8B949E</color>
+    <color name="status_active">#FF238636</color>
+    <color name="status_inactive">#FF6E7681</color>
+    <color name="ripple">#1AFFFFFF</color>
+</resources>

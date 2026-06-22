@@ -1,0 +1,12 @@
+
+/build/
+/.gradle/
+/local.properties
+/.idea/
+.vscode/
+/gradle-8.4/
+*.apk
+*.zip
+*.jar
+.DS_Store
+Thumbs.db

@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_display.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_display.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_card_bg.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/card_bg.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_card_bg_top.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/card_bg_top.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_refresh.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/layout_activity_setup.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/layout/activity_setup.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_bg_icon_circle.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/bg_icon_circle.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_card_bg_mid.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/card_bg_mid.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_card_bg_bottom.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/card_bg_bottom.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_fingerprint.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_fingerprint.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_status_dot.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/status_dot.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_shield.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_lock.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_btn_accent.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/btn_accent.xml"
+    },
+    {
+        "merged": "com.bypass.projection.app-merged_res-31:/drawable_ic_power.xml.flat",
+        "source": "com.bypass.projection.app-main-32:/drawable/ic_power.xml"
+    }
+]

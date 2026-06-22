@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposedscope">
+        <item>android</item>
+        <item>com.microsoft.appmanager</item>
+        <item>com.microsoft.deviceintegrationservice</item>
+        <item>com.microsoftsdk.crossdeviceservicebroker</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <color name="accent_blue">#FF58A6FF</color>
+    <color name="accent_green">#FF3FB950</color>
+    <color name="accent_orange">#FFD29922</color>
+    <color name="accent_red">#FFF85149</color>
+    <color name="bg_card">#FF161B22</color>
+    <color name="bg_card_elevated">#FF1C2333</color>
+    <color name="bg_primary">#FF0D1117</color>
+    <color name="divider">#FF21262D</color>
+    <color name="ripple">#1AFFFFFF</color>
+    <color name="status_active">#FF238636</color>
+    <color name="status_inactive">#FF6E7681</color>
+    <color name="switch_thumb_off">#FF8B949E</color>
+    <color name="switch_thumb_on">#FFFFFFFF</color>
+    <color name="switch_track_off">#FF30363D</color>
+    <color name="switch_track_on">#FF1F6FEB</color>
+    <color name="text_muted">#FF484F58</color>
+    <color name="text_primary">#FFF0F6FC</color>
+    <color name="text_secondary">#FF8B949E</color>
+    <string name="app_name">PhoneLink Addon</string>
+    <string name="pref_auto_restore_black_screen">pref_auto_restore_black_screen</string>
+    <string name="pref_black_screen_fix">pref_black_screen_fix</string>
+    <string name="pref_bypass_projection_dialog">pref_bypass_projection_dialog</string>
+    <string name="pref_lockscreen_bypass">pref_lockscreen_bypass</string>
+    <string name="pref_master_switch">pref_master_switch</string>
+    <string name="xposed_description">Enhances Phone Link / Link to Windows with lockscreen projection bypass, auto-dialog accept, and persistent black screen.</string>
+    <style name="Theme.App.Minimal" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="android:windowBackground">#FFF5F5F5</item>
+        <item name="android:colorBackground">#FFF5F5F5</item>
+        
+        
+        <item name="colorSurface">#FFFFFFFF</item>
+        <item name="colorSurfaceContainerHigh">#FFFFFFFF</item>
+        <item name="colorPrimaryContainer">#FFF0F0F0</item>
+        
+        
+        <item name="colorPrimary">#FF000000</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#FF666666</item>
+        <item name="colorOnPrimaryContainer">#FF000000</item>
+        
+        
+        <item name="android:textColorPrimary">#FF000000</item>
+        <item name="android:textColorSecondary">#FF666666</item>
+        <item name="colorOnSurface">#FF000000</item>
+        <item name="colorOnSurfaceVariant">#FF666666</item>
+        
+        
+        <item name="colorControlActivated">#FF000000</item>
+        
+        
+        <item name="android:statusBarColor">#FFF5F5F5</item>
+        <item name="android:navigationBarColor">#FFF5F5F5</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

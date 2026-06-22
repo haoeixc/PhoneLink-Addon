@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Minimal Light Theme -->
+    <style name="Theme.App.Minimal" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">#FFF5F5F5</item>
+        <item name="android:colorBackground">#FFF5F5F5</item>
+        
+        <!-- Surfaces (Cards) -->
+        <item name="colorSurface">#FFFFFFFF</item>
+        <item name="colorSurfaceContainerHigh">#FFFFFFFF</item>
+        <item name="colorPrimaryContainer">#FFF0F0F0</item>
+        
+        <!-- Accents -->
+        <item name="colorPrimary">#FF000000</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#FF666666</item>
+        <item name="colorOnPrimaryContainer">#FF000000</item>
+        
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">#FF000000</item>
+        <item name="android:textColorSecondary">#FF666666</item>
+        <item name="colorOnSurface">#FF000000</item>
+        <item name="colorOnSurfaceVariant">#FF666666</item>
+        
+        <!-- Switch Colors -->
+        <item name="colorControlActivated">#FF000000</item>
+        
+        <!-- Navigation -->
+        <item name="android:statusBarColor">#FFF5F5F5</item>
+        <item name="android:navigationBarColor">#FFF5F5F5</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

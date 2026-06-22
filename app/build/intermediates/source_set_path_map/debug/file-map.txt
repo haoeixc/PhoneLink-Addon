@@ -1,0 +1,34 @@
+com.bypass.projection.app-fragment-1.3.6-0 C:\Users\qnile\.gradle\caches\transforms-3\0da21ec1f8f931a190458e37128ed614\transformed\fragment-1.3.6\res
+com.bypass.projection.app-recyclerview-1.1.0-1 C:\Users\qnile\.gradle\caches\transforms-3\1e770ca3d978a4e0b7158e64d69b5d70\transformed\recyclerview-1.1.0\res
+com.bypass.projection.app-drawerlayout-1.1.1-2 C:\Users\qnile\.gradle\caches\transforms-3\238413237b2dad3aaa0efe6e3186c37d\transformed\drawerlayout-1.1.1\res
+com.bypass.projection.app-jetified-core-ktx-1.9.0-3 C:\Users\qnile\.gradle\caches\transforms-3\2ad63bf04e310f9a45a8685e97c3cf23\transformed\jetified-core-ktx-1.9.0\res
+com.bypass.projection.app-jetified-activity-1.8.0-4 C:\Users\qnile\.gradle\caches\transforms-3\382d524afa87ba22d44375e053c94dac\transformed\jetified-activity-1.8.0\res
+com.bypass.projection.app-constraintlayout-2.0.1-5 C:\Users\qnile\.gradle\caches\transforms-3\4bd1eda0c242e261feb2a22d2569abce\transformed\constraintlayout-2.0.1\res
+com.bypass.projection.app-jetified-lifecycle-process-2.6.1-6 C:\Users\qnile\.gradle\caches\transforms-3\4fb95a2d322c0b24610ffef19a70ef50\transformed\jetified-lifecycle-process-2.6.1\res
+com.bypass.projection.app-lifecycle-livedata-core-2.6.1-7 C:\Users\qnile\.gradle\caches\transforms-3\5cb8c55f84ce529e4c66735e7a9c5d9c\transformed\lifecycle-livedata-core-2.6.1\res
+com.bypass.projection.app-lifecycle-livedata-2.6.1-8 C:\Users\qnile\.gradle\caches\transforms-3\5d7acb1d55ab11a668109eed26dda971\transformed\lifecycle-livedata-2.6.1\res
+com.bypass.projection.app-appcompat-1.6.1-9 C:\Users\qnile\.gradle\caches\transforms-3\67a0243de1b9042b8db333e00edbaab9\transformed\appcompat-1.6.1\res
+com.bypass.projection.app-coordinatorlayout-1.1.0-10 C:\Users\qnile\.gradle\caches\transforms-3\6f08a670795753e422b1dd483a0950ff\transformed\coordinatorlayout-1.1.0\res
+com.bypass.projection.app-jetified-emoji2-views-helper-1.2.0-11 C:\Users\qnile\.gradle\caches\transforms-3\7056edef1145f2f4abbfd15a773c69d2\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.bypass.projection.app-jetified-startup-runtime-1.1.1-12 C:\Users\qnile\.gradle\caches\transforms-3\9361c3ef4d15b0e6eca563c305db0ab6\transformed\jetified-startup-runtime-1.1.1\res
+com.bypass.projection.app-cardview-1.0.0-13 C:\Users\qnile\.gradle\caches\transforms-3\9ee725fff452bc7ecc59d6249a1144c6\transformed\cardview-1.0.0\res
+com.bypass.projection.app-jetified-emoji2-1.2.0-14 C:\Users\qnile\.gradle\caches\transforms-3\aade806597be5a4a892d17aada523eeb\transformed\jetified-emoji2-1.2.0\res
+com.bypass.projection.app-jetified-profileinstaller-1.3.0-15 C:\Users\qnile\.gradle\caches\transforms-3\af1f177eeab879b85506d1b348862d8a\transformed\jetified-profileinstaller-1.3.0\res
+com.bypass.projection.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-16 C:\Users\qnile\.gradle\caches\transforms-3\b5c31555343d849fe8e3b87009ee991f\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.bypass.projection.app-jetified-savedstate-1.2.1-17 C:\Users\qnile\.gradle\caches\transforms-3\b69df55a9da99adac4a9103efa0bd4c1\transformed\jetified-savedstate-1.2.1\res
+com.bypass.projection.app-lifecycle-viewmodel-2.6.1-18 C:\Users\qnile\.gradle\caches\transforms-3\bbfe7b0501dee5035f62ff5ca65bebf3\transformed\lifecycle-viewmodel-2.6.1\res
+com.bypass.projection.app-jetified-viewpager2-1.0.0-19 C:\Users\qnile\.gradle\caches\transforms-3\bc40b3a7a9e400bf02b58a7255e0fabc\transformed\jetified-viewpager2-1.0.0\res
+com.bypass.projection.app-lifecycle-runtime-2.6.1-20 C:\Users\qnile\.gradle\caches\transforms-3\d7f81a723429134a6ff94f804efab6ce\transformed\lifecycle-runtime-2.6.1\res
+com.bypass.projection.app-core-runtime-2.2.0-21 C:\Users\qnile\.gradle\caches\transforms-3\dc7685f2ba303824ce7a78a8c7e2efe1\transformed\core-runtime-2.2.0\res
+com.bypass.projection.app-material-1.11.0-22 C:\Users\qnile\.gradle\caches\transforms-3\e8e76a9270faf759d3a2c271d700a3fc\transformed\material-1.11.0\res
+com.bypass.projection.app-core-1.9.0-23 C:\Users\qnile\.gradle\caches\transforms-3\ec58f110124a3428a16ec337c431efeb\transformed\core-1.9.0\res
+com.bypass.projection.app-transition-1.2.0-24 C:\Users\qnile\.gradle\caches\transforms-3\edb24e0ccb68a84c955de5f0a2aeee61\transformed\transition-1.2.0\res
+com.bypass.projection.app-jetified-appcompat-resources-1.6.1-25 C:\Users\qnile\.gradle\caches\transforms-3\f0ee87ab18dd02b8b1e4a091b9184ba3\transformed\jetified-appcompat-resources-1.6.1\res
+com.bypass.projection.app-jetified-annotation-experimental-1.3.0-26 C:\Users\qnile\.gradle\caches\transforms-3\f617e979a7228a04002d236ac256dd8b\transformed\jetified-annotation-experimental-1.3.0\res
+com.bypass.projection.app-pngs-27 D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\build\generated\res\pngs\debug
+com.bypass.projection.app-resValues-28 D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\build\generated\res\resValues\debug
+com.bypass.projection.app-packageDebugResources-29 D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.bypass.projection.app-packageDebugResources-30 D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.bypass.projection.app-merged_res-31 D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\build\intermediates\merged_res\debug
+com.bypass.projection.app-debug-32 D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\debug\res
+com.bypass.projection.app-main-33 D:\Worskpace\Projects\Active\Phone Link Addon\ProjectionBypassModule\app\src\main\res
