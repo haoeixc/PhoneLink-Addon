@@ -10,14 +10,9 @@ on:
 jobs:
   build-release:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        # 你的 README 说明项目在 ProjectionBypassModule 目录下构建
-        working-directory: ProjectionBypassModule
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -26,19 +21,31 @@ jobs:
           java-version: "17"
           cache: gradle
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x ./gradlew
+      - name: Locate project dir (where gradlew is)
+        id: locate
+        shell: bash
+        run: |
+          set -e
+          dir="$(find . -maxdepth 4 -name gradlew -type f -print -quit | xargs -r dirname)"
+          if [ -z "$dir" ]; then
+            echo "gradlew not found"
+            exit 1
+          fi
+          echo "Found gradlew in: $dir"
+          echo "project_dir=$dir" >> "$GITHUB_OUTPUT"
 
-      # 可选：打印版本信息，方便排查
-      - name: Gradle/AGP info
-        run: ./gradlew -v
-
-      - name: Build Release APK (unsigned)
-        run: ./gradlew --no-daemon clean :app:assembleRelease
+      - name: Build Release APK
+        shell: bash
+        run: |
+          set -e
+          cd "${{ steps.locate.outputs.project_dir }}"
+          chmod +x ./gradlew
+          ./gradlew --no-daemon clean :app:assembleRelease
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: app-release-unsigned
-          path: ProjectionBypassModule/app/build/outputs/apk/release/*release*.apk
+          path: |
+            **/app/build/outputs/apk/release/*release*.apk
           if-no-files-found: error
