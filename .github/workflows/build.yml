@@ -1,16 +1,14 @@
-name: Build APK
+name: Build APK (generate wrapper in CI)
 
 on:
   push:
     branches: [ "main", "master" ]
   pull_request:
-    branches: [ "main", "master" ]
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -19,9 +17,17 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-          cache: gradle
 
-      - name: Build Release (unsigned)
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.2"
+
+      # 生成 wrapper（只在 CI 工作区，不会提交回仓库）
+      - name: Generate Gradle Wrapper (local only)
+        run: gradle wrapper --gradle-version 8.2 --distribution-type all
+
+      - name: Build Release
         run: |
           chmod +x ./gradlew
           ./gradlew --no-daemon clean :app:assembleRelease
